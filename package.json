@@ -1,0 +1,21 @@
+{
+  "name": "apispects",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/apispects.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "zod": "^3.25.74"
+  },
+  "devDependencies": {
+    "express": "^5.1.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  }
+}
